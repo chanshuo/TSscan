@@ -7,6 +7,9 @@ http://nebc.nerc.ac.uk/ for more information). The BLAT and BFAST aligners can b
 http://genome.ucsc.edu/ (the UCSC Genome Browser) and http://sourceforge.net/apps/mediawiki/bfast/, 
 respectively.
 
+All source codes can be compiled by g++.
+Note: The -fopenmp flag should be passed to the compiler for compiling TSscan1of4.cpp.
+
 2. Preparation
 
 The initial input data include the reference sequences, the long read data and the short read data.
