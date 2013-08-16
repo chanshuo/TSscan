@@ -1,0 +1,6 @@
+OBJS = ../../cswu/Common.o ../../cswu/Table.o ../../cswu/Seq.o ../../cswu/Map.o RmRedundance.o
+RmRedundance: ${OBJS}
+	g++ ${OBJS} -o RmRedundance
+	rm -f ${OBJS}
+
+
